@@ -1,0 +1,13 @@
+.blog-content {
+	grid-area: main;
+	margin-top: 10%;
+}
+
+.blog-text {
+	margin-top: 8%;
+	border-left: 1px solid black;
+}
+
+ol {
+	margin-left: 8%;
+}
