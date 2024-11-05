@@ -4,7 +4,9 @@
 }
 
 .blog-text {
-	margin-top: 8%;
+	color: #443936;
+	font-weight: 600;
+	margin-top: 5%;
 	border-left: 1px solid black;
 }
 
