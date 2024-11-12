@@ -8,7 +8,7 @@
 	margin: 5%;
 }
 
-@media(min-width: 577) {
+@media (min-width: 577) {
 	.blog-content {
 		display: flex;
 		flex-direction: row;
@@ -22,9 +22,10 @@
 	margin: 20px 30px 10px 70px;
 }
 
-div > span {
-	/* text-align: center; */
-    color: gray;
+div > figcaption {
+	color: gray;
+	font-size: 14px;
+	padding-bottom: 5px;
 }
 
 @media (max-width: 576px) {
@@ -46,6 +47,6 @@ div > span {
 	[class='blog-img'] {
 		object-fit: cover;
 		width: 60%;
-        margin-bottom: 10px;
+		margin-bottom: 10px;
 	}
 }
