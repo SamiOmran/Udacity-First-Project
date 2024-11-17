@@ -1,6 +1,5 @@
 #home-btn {
-	display: block;
-	width: 100%;
+	width: fit-content;
 }
 
 @media (min-width: 576px) {
@@ -12,6 +11,18 @@
 			'sd main'
 			'sd main'
 			'sd ft';
+	}
+}
+
+@media (max-width: 768px) {
+	.blog-content {
+		margin-top: 5%;
+	}
+
+	.card {
+		width: 80%;
+		margin: auto;
+		padding: 2%;
 	}
 }
 
@@ -51,10 +62,10 @@ figcaption {
 
 .bio {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* grid-area: card; */
+	/* align-items: start; */
+	/* justify-content: center; */
 	width: 100%;
+	/* padding-bottom: 10%; */
 }
 
 .card {
@@ -64,8 +75,10 @@ figcaption {
 	width: 40%;
 	border-radius: 5px;
 	padding: 10%;
-	margin-top: 10%;
 	height: max-content;
+	padding-bottom: 50px;
+	padding-right: 45%;
+	margin-top: -100px;
 }
 
 .card:hover {
@@ -78,11 +91,13 @@ figcaption {
 	border-radius: 5px 5px 0 0;
 	width: 200px;
 	height: 300px;
-	/* margin-right: 40%; */
+	margin-left: 45px;
 }
 
 .author-info {
-	text-align: center;
+	width: 100%;
+	/* text-align: right; */
+	/* margin-left: 50px; */
 }
 
 .go-back {
@@ -124,9 +139,13 @@ figcaption {
 		padding-bottom: 10px;
 	}
 
+	.blog-bio {
+		flex-direction: column;
+	}
+
 	.card {
 		display: flex;
-		/* flex-direction: column;. */
+		/* flex-direction: column; */
 		justify-content: space-between;
 		width: 40%;
 		padding: 10%;

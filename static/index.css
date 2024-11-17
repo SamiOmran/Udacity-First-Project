@@ -66,8 +66,9 @@ li {
 }
 
 .content-title {
+	color: rgb(44, 74, 80);
 	grid-area: main;
-	margin-top: 1%;
+	margin-top: 3%;
 	margin-left: 35%;
 }
 
@@ -95,7 +96,7 @@ li {
 	}
 
 	.logo {
-		width: 10%;
+		max-width: 10%;
 		height: 10%;
 	}
 }
@@ -111,6 +112,7 @@ footer {
 }
 
 .footer-txt {
+	color: #e4f5fe;
 	text-align: center;
 	margin-top: 2px;
 	margin-bottom: 7px;
@@ -124,11 +126,10 @@ footer {
 	background-image: url('imgs/facebook.png');
 	background-size: cover;
 	width: 40px;
-	height: 40px;
 }
 
-#twitter {
-	background-image: url('imgs/twitter.png');
+#linkedin {
+	background-image: url('imgs/linkedin.png');
 	background-size: cover;
 	width: 40px;
 	height: 40px;
