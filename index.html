@@ -9,73 +9,52 @@
     </head>
 
     <body>
-        <div class='container'>
-            <div class='navbar'>
-                <img src='static/imgs/bebo-logo.png' alt='' class='logo'>
-                <ul>
-                    <a href='#'>
-                        <li>Home</li>
-                    </a>
-                    <a href='#'>
-                        <li>About Me</li>
-                    </a>
-                    <a href='#'>
-                        <li>Contact Me</li>
-                    </a>
+        <header>
+            <nav class="navbar">
+                <ul class="navbar-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="#">Contact me</a></li>
                 </ul>
+            </nav>
+            <h1>German Cars</h1>
+        </header>
+
+        <section id="blog-display" class="blog-display-area">
+            <div class="blog-card">
+                <img src="static/imgs/audi.jpg" alt="Audi" class="blog-image">
+                <h3>Audi</h3>
+                <p>Model: q8</p>
             </div>
-
-            <h1 class='content-title'>German Cars</h1>
-            <div class='content'>
-                <div class='blog-content'>
-                    <div class='blog'>
-                        <img src='static/imgs/audi.jpg' alt='audi car' class='blog-img'>
-                        <figcaption>Fig.1 - 11/3/2024 | Nablus | Sami Imran</figcaption>
-                        <a href='blog.html'>
-                            <h3>Audi Q8</h3>
-                        </a>
-                        <!-- <span>11/3/2024 | Nablus | Sami Imran</span> -->
-
-                    </div>
-                    <div class='blog'>
-                        <img src='static/imgs/skoda.jpg' alt='skoda car' class='blog-img'>
-                        <figcaption>Fig.2 - 11/11/2024 | Nablus | Sami Imran</figcaption>
-                        <a href='blog.html'>
-                            <h3>Skoda Yeti</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class='blog-content'>
-                    <div class='blog'>
-                        <img src='static/imgs/audi.jpg' alt='audi car' class='blog-img'>
-                        <figcaption>Fig.3 - 11/11/2024 | Nablus | Sami Imran</figcaption>
-                        <a href='blog.html'>
-                            <h3>Audi Q8</h3>
-                        </a>
-                    </div>
-                    <div class='blog'>
-                        <img src='static/imgs/skoda.jpg' alt='skoda car' class='blog-img'>
-                        <figcaption>Fig.4 - 11/11/2024 | Nablus | Sami Imran</figcaption>
-                        <a href='blog.html'>
-                            <h3>Skoda Yeti</h3>
-                        </a>
-                    </div>
-                </div>
+            <div class="blog-card">
+                <img src="static/imgs/bmw.jpg" alt="bmw" class="blog-image">
+                <h3>BMW</h3>
+                <p>Model: m4</p>
             </div>
+            <div class="blog-card">
+                <img src="static/imgs/skoda.jpg" alt="Skoda" class="blog-image">
+                <h3>Skoda</h3>
+                <p>model: Yeti</p>
+            </div>
+            <div class="blog-card">
+                <img src="static/imgs/maybach.jpeg" alt="Mercedes" class="blog-image">
+                <h3>Mercedes</h3>
+                <p>Model: Maybach</p>
+            </div>
+            <div class="blog-card">
+                <img src="static/imgs/kia.jpeg" alt="Kia" class="blog-image">
+                <h3>Kia</h3>
+                <p>Category: Sorento</p>
+            </div>
+        </section>
 
-            <footer>
-                <div class='footer-txt'>
-                    <img src='static/imgs/copyright.png' alt='copyrights' id='copyright-image'>
-                    <span class='copyright'> Developed by <em><strong>Sami Imran</strong></em></span>
-
-                </div>
-                <div class='social-icons'>
-                    <a href='https://www.facebook.com/sami.imran.940/' id='facebook'></a>
-                    <a href='https://www.linkedin.com/in/sami-imran-922937210/' id='linkedin'></a>
-                </div>
-            </footer>
-        </div>
-
+        <footer>
+            <p>&copy; 2024 Sami Imran. All rights reserved.</p>
+            <div class="footer-links">
+                <a href='https://www.facebook.com/sami.imran.940/' id='facebook'></a>
+                <a href='https://www.linkedin.com/in/sami-imran-922937210/' id='linkedin'></a>
+            </div>
+        </footer>
     </body>
 
 </html>
